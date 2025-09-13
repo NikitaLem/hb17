@@ -3,6 +3,8 @@ import IframeGame from "./components/IframeGame";
 import { NoteBook } from "./components/NoteBook";
 import Spoiler from "./components/Spoiler";
 
+import screen1 from "./assets/screen1.jpg";
+
 function App() {
   return (
     <div
@@ -35,7 +37,7 @@ const Text1 = () => {
   return (
     <div>
       <p>
-        <img src="/src/assets/screen1.jpg" style={{ marginRight: "12px" }} />
+        <img src={screen1} style={{ marginRight: "12px" }} />
         Вот что мне подсказывает автоматизированный робот-помощник для начала
         поздравления хд И хоть я с ним согласен, но напишу все же сам.
       </p>
